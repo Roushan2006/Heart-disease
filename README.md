@@ -40,11 +40,17 @@ heart-disease-prediction
 ├── simple.ipynb
 
 ├── heart.csv
+
 ├── requirements.txt
+
+
 │
 ├── models
+
 │   ├── lr.pkl
+
 │   ├── scaler.pkl
+
 │   └── columns.pkl
 
 
