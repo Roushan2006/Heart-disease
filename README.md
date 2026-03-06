@@ -1,61 +1,114 @@
-❤️ Heart Disease Prediction System
-This repository provides an end-to-end solution for predicting heart disease risk. The project covers the entire machine learning lifecycle, from data analysis and model training to deployment via a user-friendly web interface.
+❤️ AI Heart Disease Prediction System
 
-📁 Project Overview
-The project is divided into two main components:
+A Machine Learning web application that predicts the risk of heart disease using patient clinical data.
 
-Analysis (simple.ipynb): A Jupyter Notebook containing the data exploration, preprocessing, and training of a Logistic Regression model.
+The project demonstrates the complete ML lifecycle:
 
-Application (app.py): A robust Streamlit application that allows users to input clinical data and receive real-time risk predictions, complete with visual feedback and downloadable medical reports.
+Data Analysis → Model Training → Deployment → Visualization → Reporting
 
-🚀 Key Features
-Machine Learning Integration: Uses a pre-trained Logistic Regression model and StandardScaler to process patient input accurately.
 
-Visual Risk Assessment:
 
-Risk Gauge: Displays a dynamic gauge indicating low, moderate, or high-risk levels.
+🧠 Machine Learning Model
 
-Probability Analysis: Uses Plotly to show the probability breakdown of the prediction.
+Algorithm used:
 
-Automated Reporting: Generates instant, professional-style PDF summaries for patients using reportlab.
+Logistic Regression
 
-Responsive UI: A custom-styled Streamlit interface featuring background imagery and structured data inputs.
+Why Logistic Regression?
 
-🛠️ Technical Stack
-Core: Python, Pandas, NumPy
+Good for binary classification
 
-Machine Learning: Scikit-learn, Pickle
+Interpretable
 
-Visualization: Plotly (Gauge charts & Bar charts), Seaborn, Matplotlib
+Works well on medical datasets
 
-Web Framework: Streamlit
+📊 Model Performance
+Metric	Score
+Accuracy	0.86
+Precision	0.84
+Recall	0.88
+F1 Score	0.86
 
-PDF Generation: ReportLab
 
-📋 How to Run
-Prerequisites
-Ensure you have the required libraries installed:
+📂 Project Structure
+heart-disease-prediction
+│
+├── app.py
+├── simple.ipynb
+├── heart.csv
+├── requirements.txt
+│
+├── models
+│   ├── lr.pkl
+│   ├── scaler.pkl
+│   └── columns.pkl
 
-Bash
-pip install streamlit pandas plotly reportlab scikit-learn
-Execution
-Clone the repository:
 
-Bash
-git clone https://github.com/Roushan2006/heart-disease-prediction.git
-cd heart-disease-prediction
-Launch the App:
+🛠 Tech Stack
 
-Bash
-streamlit run app.py
-🏗️ Data Flow
-The system processes data in three distinct stages:
+Programming
 
-Raw Data Processing: Loading heart.csv in simple.ipynb.
+Python
 
-Feature Scaling: Transforming inputs via models/scaler.pkl to match the training distribution.
+Pandas
 
-Inference: Predicting the target class using models/lr.pkl and rendering the results in the browser.
+NumPy
 
-⚖️ Disclaimer
-This tool is for educational and demonstrative purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider regarding a medical condition.
+Machine Learning
+
+Scikit-learn
+
+Visualization
+
+Plotly
+
+Matplotlib
+
+Seaborn
+
+Web App
+
+Streamlit
+
+Report Generation
+
+ReportLab
+
+📊 Features
+
+✅ Real-time heart disease prediction
+
+✅ Interactive risk gauge visualization
+
+✅ Probability breakdown chart
+
+✅ AI model explanation (SHAP)
+
+✅ Downloadable PDF medical report
+
+
+⚠️ Disclaimer
+
+This tool is intended for educational purposes only.
+
+It does not replace professional medical advice.
+
+Always consult a qualified healthcare professional.
+
+⭐ Future Improvements
+
+Deep learning models
+
+More medical datasets
+
+Doctor dashboard
+
+Patient history tracking
+
+Mobile app version
+
+🧑‍💻 Author
+Roushan Kumar
+
+GitHub:
+https://github.com/Roushan2006
