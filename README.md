@@ -31,6 +31,7 @@ F1 Score	0.86
 
 
 📂 Project Structure
+
 heart-disease-prediction
 │
 ├── app.py
