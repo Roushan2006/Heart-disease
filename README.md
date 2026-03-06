@@ -43,8 +43,6 @@ heart-disease-prediction
 
 ├── requirements.txt
 
-
-│
 ├── models
 
 │   ├── lr.pkl
