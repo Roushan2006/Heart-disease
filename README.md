@@ -34,8 +34,11 @@ F1 Score	0.86
 
 heart-disease-prediction
 │
+
 ├── app.py
+
 ├── simple.ipynb
+
 ├── heart.csv
 ├── requirements.txt
 │
