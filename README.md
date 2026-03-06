@@ -45,11 +45,11 @@ heart-disease-prediction
 
 ├── models
 
-   ├── lr.pkl
+    ├── lr.pkl
 
-   ├── scaler.pkl
+    ├── scaler.pkl
 
-   └── columns.pkl
+    └── columns.pkl
 
 
 🛠 Tech Stack
