@@ -7,6 +7,10 @@ The project demonstrates the complete ML lifecycle:
 Data Analysis → Model Training → Deployment → Visualization → Reporting
 
 
+🚀 Live Demo
+https://heart-disease-predicti.streamlit.app/
+
+
 
 🧠 Machine Learning Model
 
