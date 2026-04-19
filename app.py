@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import io
 
+
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.pagesizes import letter
